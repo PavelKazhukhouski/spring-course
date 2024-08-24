@@ -8,7 +8,7 @@ public class Test2 {
         ClassPathXmlApplicationContext applicationContext =
                 new ClassPathXmlApplicationContext("applicationContext.xml");
 
-        Pet dog = applicationContext.getBean("dog", Pet.class);
+        Pet dog = applicationContext.getBean("myPet", Pet.class);
         dog.say();
 
 
