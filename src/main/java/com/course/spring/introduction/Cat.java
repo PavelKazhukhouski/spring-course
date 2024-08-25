@@ -1,5 +1,9 @@
 package com.course.spring.introduction;
 
+import lombok.Data;
+
+
+@Data
 public class Cat implements Pet {
 
     public Cat() {
